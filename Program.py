@@ -41,6 +41,15 @@ class Program:
             else:
                 print("Invalid choice. Please try again.")
 
+    
+    
+    
+    
+    
+    
+    
+    def run(self):
+        self.show_main_menu()
 
 program = Program()
 program.run()
