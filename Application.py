@@ -28,13 +28,12 @@ class Program:
             print("3. Withdraw")
             print("4. Exit Account")
             choice = input("Enter your choice: ")
-                
+            
             if choice == "1":
-                account.check_balance()
+                account.get_balance()
             elif choice == "2":
                 account.deposit()
             elif choice == "3":
-                
                 amount = input("Enter the amount to withdraw: ")
                 account.withdraw(amount)
             elif choice == "4":
