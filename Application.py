@@ -40,3 +40,7 @@ class Program:
                 break
             else:
                 print("Invalid choice. Please try again.")
+
+
+program = Program()
+program.run()
